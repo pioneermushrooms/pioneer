@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Center AI</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Center Quiz</h1>
+        <p><strong>Question:</strong> {{ question }}</p>
+        <form action="/submit" method="POST">
+            <input type="hidden" id="question_id" name="question_id" value="{{ question_id }}">
+            
+            <label for="answer">Answer:</label><br>
+            <textarea id="answer" name="answer" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

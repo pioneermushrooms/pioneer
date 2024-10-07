@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Center Quiz Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Result</h1>
+        <p><strong>Your Score:</strong> {{ score }} out of {{ total }}</p>
+
+        <p><strong>Correct Answer:</strong> <br>{{ correct_answer | safe }}</p>
+        
+        <form action="/ask_another" method="GET">
+            <input type="submit" value="Ask Another">
+        </form>
+    </div>
+</body>
+</html>
