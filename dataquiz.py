@@ -3,10 +3,14 @@ import random
 
 app = Flask(__name__)
 
+<<<<<<< HEAD
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=5000, debug=True)
 
 # Stop words list (words we don't care about when scoring)
+=======
+# Stop words list
+>>>>>>> c887412eed561e7aac329a7d2f9ce57ac49e68ad
 stop_words = {'the', 'a', 'and', 'in', 'of', 'when', 'is', 'by', 'to', 'for'}
 
 # Function to filter out stop words from a list of words
@@ -15,6 +19,7 @@ def filter_stop_words(words):
 
 # Updated Question Bank
 question_bank = {
+<<<<<<< HEAD
     1: {"question": "What is the difference between dry bulb and wet bulb temperature in data center cooling?", 
         "answer": "Dry bulb temperature measures the ambient air temperature, while wet bulb temperature accounts for humidity and is the lowest temperature air can reach through evaporation."},
     2: {"question": "What is the significance of the dew point in a data center environment?", 
@@ -65,6 +70,11 @@ question_bank = {
         "answer": "Diesel generators are fast and reliable for backup power, while natural gas generators offer cleaner emissions and longer runtime capabilities."},
     25: {"question": "What is the purpose of dehumidification in a data center's HVAC system?", 
         "answer": "Dehumidification reduces excess moisture in the air, preventing condensation from forming on sensitive equipment and reducing the risk of hardware failure."}
+=======
+    1: {"question": "What is the difference between dry bulb and wet bulb temperature in data center cooling?",
+        "answer": "Dry bulb temperature measures the ambient air temperature, while wet bulb temperature accounts for humidity."},
+    # Add more questions here...
+>>>>>>> c887412eed561e7aac329a7d2f9ce57ac49e68ad
 }
 
 @app.route('/')
@@ -77,6 +87,7 @@ def home():
 def submit():
     question_id = int(request.form['question_id'])
     user_answer = request.form['answer'].lower().split()
+<<<<<<< HEAD
     correct_answer = question_bank[question_id]["answer"].split()
 
     # Filter out stop words from the user's answer
@@ -106,3 +117,12 @@ def ask_another():
 
 if __name__ == '__main__':
     app.run(debug=True)
+=======
+    correct_answer = question_bank[question_id]["answer"].lower().split()
+    
+    # Scoring logic and comparison goes here...
+    return render_template('result.html', user_answer=user_answer, correct_answer=correct_answer)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
+>>>>>>> c887412eed561e7aac329a7d2f9ce57ac49e68ad
