@@ -1,0 +1,46 @@
+[2024-10-08 00:33:34 +0000] [1545341] [INFO] Starting gunicorn 22.0.0
+[2024-10-08 00:33:34 +0000] [1545341] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:34 +0000] [1545341] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:35 +0000] [1545341] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:35 +0000] [1545341] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:36 +0000] [1545341] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:36 +0000] [1545341] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:36 +0000] [1545343] [INFO] Starting gunicorn 22.0.0
+[2024-10-08 00:33:36 +0000] [1545343] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:36 +0000] [1545343] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:37 +0000] [1545341] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:37 +0000] [1545341] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:37 +0000] [1545343] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:37 +0000] [1545343] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:38 +0000] [1545341] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:38 +0000] [1545341] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:38 +0000] [1545343] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:38 +0000] [1545343] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:39 +0000] [1545341] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-10-08 00:33:39 +0000] [1545343] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:39 +0000] [1545343] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:40 +0000] [1545343] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2024-10-08 00:33:40 +0000] [1545343] [ERROR] Retrying in 1 second.
+[2024-10-08 00:33:41 +0000] [1545343] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2024-10-08 00:34:56 +0000] [1545427] [INFO] Starting gunicorn 22.0.0
+[2024-10-08 00:34:56 +0000] [1545427] [INFO] Listening at: http://0.0.0.0:8000 (1545427)
+[2024-10-08 00:34:56 +0000] [1545427] [INFO] Using worker: sync
+[2024-10-08 00:34:56 +0000] [1545428] [INFO] Booting worker with pid: 1545428
+[2024-10-08 00:34:56 +0000] [1545429] [INFO] Booting worker with pid: 1545429
+[2024-10-08 00:34:57 +0000] [1545430] [INFO] Booting worker with pid: 1545430
+[2024-10-08 02:53:05 +0000] [1545427] [ERROR] Worker (pid:1545428) was sent SIGHUP!
+[2024-10-08 02:53:05 +0000] [1545427] [ERROR] Worker (pid:1545429) was sent SIGHUP!
+[2024-10-08 02:53:05 +0000] [1545427] [ERROR] Worker (pid:1545430) was sent SIGHUP!
+[2024-10-08 02:53:06 +0000] [1554060] [INFO] Booting worker with pid: 1554060
+[2024-10-08 02:53:06 +0000] [1554061] [INFO] Booting worker with pid: 1554061
+[2024-10-08 02:53:06 +0000] [1554062] [INFO] Booting worker with pid: 1554062
+[2024-10-08 02:53:06 +0000] [1545427] [INFO] Handling signal: hup
+[2024-10-08 02:53:06 +0000] [1545427] [INFO] Hang up: Master
+[2024-10-08 02:53:06 +0000] [1554063] [INFO] Booting worker with pid: 1554063
+[2024-10-08 02:53:06 +0000] [1554064] [INFO] Booting worker with pid: 1554064
+[2024-10-08 02:53:06 +0000] [1554060] [INFO] Worker exiting (pid: 1554060)
+[2024-10-08 02:53:06 +0000] [1554061] [INFO] Worker exiting (pid: 1554061)
+[2024-10-08 02:53:06 +0000] [1554065] [INFO] Booting worker with pid: 1554065
+[2024-10-08 02:53:06 +0000] [1545427] [ERROR] Worker (pid:1554060) was sent SIGTERM!
+[2024-10-08 02:53:06 +0000] [1545427] [ERROR] Worker (pid:1554061) was sent SIGTERM!
+[2024-10-08 02:53:06 +0000] [1554062] [INFO] Worker exiting (pid: 1554062)

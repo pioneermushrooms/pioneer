@@ -1,0 +1,11 @@
+[2024-10-08 00:32:36 +0000] [1545276] [INFO] Starting gunicorn 22.0.0
+[2024-10-08 00:32:36 +0000] [1545276] [INFO] Listening at: http://0.0.0.0:8000 (1545276)
+[2024-10-08 00:32:36 +0000] [1545276] [INFO] Using worker: sync
+[2024-10-08 00:32:36 +0000] [1545277] [INFO] Booting worker with pid: 1545277
+[2024-10-08 00:32:36 +0000] [1545278] [INFO] Booting worker with pid: 1545278
+[2024-10-08 00:32:36 +0000] [1545279] [INFO] Booting worker with pid: 1545279
+[2024-10-08 00:34:31 +0000] [1545276] [INFO] Handling signal: term
+[2024-10-08 00:34:31 +0000] [1545277] [INFO] Worker exiting (pid: 1545277)
+[2024-10-08 00:34:31 +0000] [1545278] [INFO] Worker exiting (pid: 1545278)
+[2024-10-08 00:34:31 +0000] [1545279] [INFO] Worker exiting (pid: 1545279)
+[2024-10-08 00:34:31 +0000] [1545276] [INFO] Shutting down: Master
